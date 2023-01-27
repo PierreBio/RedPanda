@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3946932744496839783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3121829430984276667}
+  - component: {fileID: 5727519617823249779}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3121829430984276667
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3946932744496839783}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.4471803, y: 4.681778, z: 91.626366}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5727519617823249779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3946932744496839783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef0a8c1a00bfa8d4fa4e0d0ff688c803, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: HitEnnemy
+    audioClip: {fileID: 8300000, guid: 59cc0c7b62b529148b27acaae38bc3a5, type: 3}
+    audioSource: {fileID: 0}
+    volume: 0.773
+    pitch: 0.811
+    loop: 0
+    spatialBlend: 1
+  - name: Sarbacane
+    audioClip: {fileID: 8300000, guid: a91a59b6483789c468a8d51e152b6931, type: 3}
+    audioSource: {fileID: 0}
+    volume: 0.211
+    pitch: 1
+    loop: 0
+    spatialBlend: 0
+  - name: Jungle
+    audioClip: {fileID: 8300000, guid: f5cf5cabda310274eb42574f752e43de, type: 3}
+    audioSource: {fileID: 0}
+    volume: 0.621
+    pitch: 1
+    loop: 0
+    spatialBlend: 1
+  - name: Aggressive
+    audioClip: {fileID: 8300000, guid: 102560ffea609b54eb5f763895924b2e, type: 3}
+    audioSource: {fileID: 0}
+    volume: 0.944
+    pitch: 1
+    loop: 0
+    spatialBlend: 0.964
+  - name: CanonShoot
+    audioClip: {fileID: 8300000, guid: 92d3259b6a9732e4ba3fb95331b2c95d, type: 3}
+    audioSource: {fileID: 0}
+    volume: 0.365
+    pitch: 1
+    loop: 0
+    spatialBlend: 1
+  - name: CanonHit
+    audioClip: {fileID: 8300000, guid: 8dfcae34791b3a447b81d6653208f596, type: 3}
+    audioSource: {fileID: 0}
+    volume: 0.877
+    pitch: 1
+    loop: 0
+    spatialBlend: 1
+  - name: JumpWall
+    audioClip: {fileID: 8300000, guid: 73f34590ca4a9b6409f7d3d29781d2ad, type: 3}
+    audioSource: {fileID: 0}
+    volume: 0.137
+    pitch: 0.734
+    loop: 0
+    spatialBlend: 0
+  - name: JumpGround
+    audioClip: {fileID: 8300000, guid: 2d2b8ef85fe6c5444b9fa74b59f930a5, type: 3}
+    audioSource: {fileID: 0}
+    volume: 0.22
+    pitch: 1
+    loop: 0
+    spatialBlend: 1
+  - name: FootSteps
+    audioClip: {fileID: 8300000, guid: 11209badfcc25fa4e8ddf2a0151d3014, type: 3}
+    audioSource: {fileID: 0}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    spatialBlend: 1
+  - name: EnnemyDamage
+    audioClip: {fileID: 8300000, guid: 062b99214a58b5f4e97e2e16d296bb86, type: 3}
+    audioSource: {fileID: 0}
+    volume: 1
+    pitch: 0.604
+    loop: 0
+    spatialBlend: 1
+  - name: MusicFight
+    audioClip: {fileID: 8300000, guid: 1c8cb8281a934c243b804c37813bc456, type: 3}
+    audioSource: {fileID: 0}
+    volume: 0.042
+    pitch: 1
+    loop: 1
+    spatialBlend: 0
+  - name: ExplosionBullet
+    audioClip: {fileID: 8300000, guid: 96bbf34d7aee725449bb8a5f1a46bfbb, type: 3}
+    audioSource: {fileID: 0}
+    volume: 0.513
+    pitch: 0.941
+    loop: 0
+    spatialBlend: 1
